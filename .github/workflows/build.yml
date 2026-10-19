@@ -1,0 +1,48 @@
+name: Build MultiRoblox.exe
+
+# Builds on a Windows machine in GitHub's cloud, so nothing needs installing locally.
+# - Any push to main (or "Run workflow"): builds and attaches the exe to the run as an artifact.
+# - Pushing a tag like v1.0.0: also publishes a GitHub Release with MultiRoblox.exe to download.
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Publish single-file exe
+        run: dotnet publish MultiRoblox.csproj -c Release -o publish
+
+      - name: Zip
+        shell: pwsh
+        run: Compress-Archive -Path publish/MultiRoblox.exe, README.md -DestinationPath MultiRoblox-win-x64.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MultiRoblox-win-x64
+          path: |
+            publish/MultiRoblox.exe
+            MultiRoblox-win-x64.zip
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" publish/MultiRoblox.exe MultiRoblox-win-x64.zip `
+            --title "MultiRoblox ${{ github.ref_name }}" `
+            --notes "Download **MultiRoblox.exe** (or the zip) and run it on Windows 10/11 x64. No install or .NET needed. Open it BEFORE starting Roblox. Unsigned, so SmartScreen may warn: More info, then Run anyway. Use at your own risk under the Roblox Terms of Use."

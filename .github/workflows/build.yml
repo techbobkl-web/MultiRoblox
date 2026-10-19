@@ -1,21 +1,25 @@
-name: Build MultiRoblox.exe
+name: Build MultiRoblox
 
-# Builds on a Windows machine in GitHub's cloud, so nothing needs installing locally.
-# - Any push to main (or "Run workflow"): builds and attaches the exe to the run as an artifact.
-# - Pushing a tag like v1.0.0: also publishes a GitHub Release with MultiRoblox.exe to download.
+# Builds both apps in GitHub's cloud (Windows and macOS machines), so nothing needs installing locally.
+# - Any push to main, a pull request, or "Run workflow": builds both and attaches them to the run.
+# - Pushing a tag like v2.0.0: also publishes a GitHub Release with MultiRoblox.exe and MultiRoblox-mac.zip.
 
 on:
   push:
     branches: [main]
     tags: ["v*"]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  windows:
     runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: windows
     steps:
       - uses: actions/checkout@v4
 
@@ -35,21 +39,53 @@ jobs:
 
       - name: Zip
         shell: pwsh
-        run: Compress-Archive -Path publish/MultiRoblox.exe, README.md -DestinationPath MultiRoblox-win-x64.zip
+        run: Compress-Archive -Path publish/MultiRoblox.exe, ../README.md -DestinationPath MultiRoblox-windows.zip
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MultiRoblox-win-x64
+          name: windows
           path: |
-            publish/MultiRoblox.exe
-            MultiRoblox-win-x64.zip
+            windows/publish/MultiRoblox.exe
+            windows/MultiRoblox-windows.zip
+
+  mac:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build MultiRoblox.app (universal) and zip it
+        working-directory: mac
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then export VERSION="${GITHUB_REF_NAME#v}"; fi
+          scripts/build-app.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mac
+          path: mac/dist/MultiRoblox-mac.zip
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [windows, mac]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
 
       - name: Publish release
-        if: startsWith(github.ref, 'refs/tags/v')
-        shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
-          gh release create "${{ github.ref_name }}" publish/MultiRoblox.exe MultiRoblox-win-x64.zip `
-            --title "MultiRoblox ${{ github.ref_name }}" `
-            --notes "Download **MultiRoblox.exe** (or the zip) and run it on Windows 10/11 x64. No install or .NET needed. Open it BEFORE starting Roblox. Unsigned, so SmartScreen may warn: More info, then Run anyway. Use at your own risk under the Roblox Terms of Use."
+          gh release create "${{ github.ref_name }}" \
+            out/windows/publish/MultiRoblox.exe \
+            out/windows/MultiRoblox-windows.zip \
+            out/mac/MultiRoblox-mac.zip \
+            --title "MultiRoblox ${{ github.ref_name }}" \
+            --notes "**Windows 10/11:** download **MultiRoblox.exe** (or MultiRoblox-windows.zip). No install needed. SmartScreen may warn: More info, then Run anyway.
+
+          **Mac (macOS 14+, Apple silicon or Intel):** download **MultiRoblox-mac.zip**, unzip, and move MultiRoblox to Applications. It isn't notarized, so the first time: try to open it, then go to System Settings, Privacy & Security, and click Open Anyway.
+
+          Open MultiRoblox, add your accounts, and launch. See the README for details. Use at your own risk under the Roblox Terms of Use."

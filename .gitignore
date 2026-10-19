@@ -3,3 +3,9 @@ obj/
 publish/
 *.user
 .vs/
+graphify-out/
+.build/
+.swiftpm/
+mac/dist/
+*.xcodeproj/xcuserdata/
+.DS_Store

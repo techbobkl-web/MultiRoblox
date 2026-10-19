@@ -52,7 +52,7 @@ internal sealed class MainForm : Form
         AutoSizeMode = AutoSizeMode.GrowAndShrink;
         Padding = new Padding(16);
 
-        const int width = 340;
+        const int width = 380;
 
         var layout = new TableLayoutPanel
         {
@@ -150,8 +150,8 @@ internal sealed class MainForm : Form
 
         var hint = new Label
         {
-            Text = "Turn this on before opening Roblox, then join games from the website or Bloxstrap as usual. " +
-                   "Closing this window keeps it running in the tray.",
+            Text = "Keep multi-instance on before opening Roblox. Launch accounts from the list above, or join games from " +
+                   "the website or Bloxstrap as usual. Closing this window keeps it running in the tray.",
             ForeColor = SystemColors.GrayText,
             AutoSize = true,
             MaximumSize = new Size(width, 0),
@@ -162,6 +162,7 @@ internal sealed class MainForm : Form
         layout.Controls.Add(_toggle);
         layout.Controls.Add(_status);
         layout.Controls.Add(countRow);
+        layout.Controls.Add(new AccountsSection(width, () => _lock.IsHeld, () => Icon));
         layout.Controls.Add(_startup);
         layout.Controls.Add(hint);
         Controls.Add(layout);

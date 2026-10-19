@@ -1,6 +1,7 @@
 # MultiRoblox
 
-A small Windows tray app that lets you run more than one Roblox client at the same time.
+A small Windows tray app that lets you run more than one Roblox client at the same time, each
+signed in to a **different account**.
 
 > **Status:** this has **not been tested on Windows yet**. GitHub builds the exe, so it compiles,
 > but nobody has run it on a real PC. Expect small rough edges on the first run.
@@ -34,8 +35,35 @@ released, so Roblox goes back to normal single-instance behaviour.
    **Close all Roblox**) and multi-instance turns on by itself.
 2. Check the big button says **Multi-instance: ON** and the status says *"Multi-instance active"*.
 3. Join games the usual way, from roblox.com or Bloxstrap. Each join opens a new client.
-4. To use **different accounts**, sign in to each one in a separate browser profile (or a separate
-   browser) and join from there. Each client keeps the account it was launched with.
+
+### Playing on different accounts at the same time
+
+1. Under **Accounts**, press **Add account**. A sign-in window opens: sign in to Roblox there
+   (including any 2-step code or captcha). It closes by itself once you're in, and the account
+   shows up in the list. Repeat for each account. You only do this once per account.
+2. Paste a game link (like `https://www.roblox.com/games/920587237/Adopt-Me`) or just its place ID
+   into **Game link or place ID**. Private-server and share links work too.
+3. Select the accounts to play on (Ctrl+click or Shift+click to pick several) and press
+   **Launch**. MultiRoblox starts them one after another, a few seconds apart: each account gets
+   its own Roblox window.
+
+For each account, a small browser window opens on roblox.com, starts the game, and closes itself.
+If the game doesn't start within a few seconds, press the green **Play** button in that window.
+**Open roblox.com** (or double-click an account) opens that account's browser so you can pick
+any game, join a friend, and so on.
+
+How the sign-ins are kept: each account has its own private Edge browser profile in
+`%LOCALAPPDATA%\MultiRoblox\Profiles`. MultiRoblox never sees or stores your password. The
+sign-in stays in that profile, encrypted by Windows for your user, just like a normal browser.
+Anyone who can use your Windows account could use those sign-ins, so don't copy or share that
+folder. **Remove** deletes an account's profile from this PC. To sign it out everywhere too, use
+*Log out of all other sessions* in Roblox's security settings.
+
+The account windows need the Microsoft Edge WebView2 Runtime. It's already on Windows 11 and most
+Windows 10 PCs. If it's missing, the app says so and tells you where to get it.
+
+You can also skip the account list and sign in to each account in a separate browser profile,
+then join from each browser yourself.
 
 Other controls:
 
@@ -114,6 +142,10 @@ Because the exe isn't code-signed, Windows SmartScreen may warn the first time y
 | `src/MainForm.cs` | The window, the tray icon, and the on/off/waiting logic (checks every 1.5 s) |
 | `src/StartWithWindows.cs` | The per-user "start with Windows" registry entry |
 | `src/AppIcons.cs` | Draws the tray icon at runtime |
+| `src/AccountsSection.cs` | The account list, game box, and Launch button |
+| `src/AccountWindow.cs` | One account's browser (its own WebView2 profile); signs in and hands Roblox's launch link to the client |
+| `src/AccountStore.cs` | Saves the account list (names only, no passwords) to `%LOCALAPPDATA%\MultiRoblox` |
+| `src/RobloxWeb.cs` | Turns a game link or place ID into a roblox.com launch page; looks up the signed-in username |
 | `src/Program.cs` | Single-instance guard for the app itself; `--minimized` starts it in the tray |
 
 ## Use at your own risk

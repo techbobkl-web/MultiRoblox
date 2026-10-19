@@ -26,6 +26,13 @@ jobs:
       - name: Publish single-file exe
         run: dotnet publish MultiRoblox.csproj -c Release -o publish
 
+      - name: Check it's a single file
+        shell: pwsh
+        run: |
+          Get-ChildItem publish | Format-Table Name, Length
+          $extra = Get-ChildItem publish | Where-Object Name -ne 'MultiRoblox.exe'
+          if ($extra) { throw "publish/ should only contain MultiRoblox.exe, found: $($extra.Name -join ', ')" }
+
       - name: Zip
         shell: pwsh
         run: Compress-Archive -Path publish/MultiRoblox.exe, README.md -DestinationPath MultiRoblox-win-x64.zip

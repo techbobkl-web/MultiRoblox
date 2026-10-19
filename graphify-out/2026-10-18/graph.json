@@ -1,0 +1,2993 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "MultiRoblox.csproj",
+      "file_type": "code",
+      "source_file": "MultiRoblox.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "multiroblox",
+      "community": 6,
+      "norm_label": "multiroblox.csproj"
+    },
+    {
+      "label": "net8.0-windows",
+      "file_type": "concept",
+      "source_file": "MultiRoblox.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "framework_net8_0_windows",
+      "community": 6,
+      "norm_label": "net8.0-windows"
+    },
+    {
+      "label": "Microsoft.Web.WebView2 (1.0.2903.40)",
+      "file_type": "code",
+      "source_file": "MultiRoblox.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "nuget_microsoft_web_webview2",
+      "community": 6,
+      "norm_label": "microsoft.web.webview2 (1.0.2903.40)"
+    },
+    {
+      "label": "Microsoft.NET.Sdk",
+      "file_type": "concept",
+      "source_file": "MultiRoblox.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "sdk_microsoft_net_sdk",
+      "community": 6,
+      "norm_label": "microsoft.net.sdk"
+    },
+    {
+      "label": "AccountStore.cs",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_accountstore",
+      "community": 3,
+      "norm_label": "accountstore.cs"
+    },
+    {
+      "label": "MultiRoblox",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L4",
+      "type": "namespace",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "MultiRoblox"
+      },
+      "_origin": "ast",
+      "id": "csharp_namespace:c15e3f48b2a6bf5e",
+      "community": 4,
+      "norm_label": "multiroblox"
+    },
+    {
+      "label": "SavedAccount",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L10",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_savedaccount",
+      "community": 3,
+      "norm_label": "savedaccount"
+    },
+    {
+      "label": "DateTime",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "datetime",
+      "community": 3,
+      "norm_label": "datetime"
+    },
+    {
+      "label": ".ToString()",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L21",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_savedaccount_tostring",
+      "community": 3,
+      "norm_label": ".tostring()"
+    },
+    {
+      "label": "AppData",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L34",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_appdata",
+      "community": 3,
+      "norm_label": "appdata"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountstore_cs_list",
+      "community": 3,
+      "norm_label": "list"
+    },
+    {
+      "label": "AccountStore",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L41",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_accountstore",
+      "community": 3,
+      "norm_label": "accountstore"
+    },
+    {
+      "label": "JsonSerializerOptions",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "jsonserializeroptions",
+      "community": 3,
+      "norm_label": "jsonserializeroptions"
+    },
+    {
+      "label": ".Load()",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L53",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_accountstore_load",
+      "community": 3,
+      "norm_label": ".load()"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "data",
+      "community": 3,
+      "norm_label": "data"
+    },
+    {
+      "label": "ReadCleanly",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "readcleanly",
+      "community": 3,
+      "norm_label": "readcleanly"
+    },
+    {
+      "label": ".Save()",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L71",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_accountstore_save",
+      "community": 0,
+      "norm_label": ".save()"
+    },
+    {
+      "label": ".TryDeleteProfile()",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L80",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_accountstore_trydeleteprofile",
+      "community": 3,
+      "norm_label": ".trydeleteprofile()"
+    },
+    {
+      "label": ".DeleteOrphanProfiles()",
+      "file_type": "code",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L97",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s63"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountstore_multiroblox_accountstore_deleteorphanprofiles",
+      "community": 3,
+      "norm_label": ".deleteorphanprofiles()"
+    },
+    {
+      "label": "AccountWindow.cs",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_accountwindow",
+      "community": 4,
+      "norm_label": "accountwindow.cs"
+    },
+    {
+      "label": "AccountWindow",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L13",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow",
+      "community": 1,
+      "norm_label": "accountwindow"
+    },
+    {
+      "label": "Form",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "form",
+      "community": 2,
+      "norm_label": "form"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_bool",
+      "community": 1,
+      "norm_label": "bool"
+    },
+    {
+      "label": "WebView2",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "webview2",
+      "community": 1,
+      "norm_label": "webview2"
+    },
+    {
+      "label": "Label",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_label",
+      "community": 1,
+      "norm_label": "label"
+    },
+    {
+      "label": "Timer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_timer",
+      "community": 1,
+      "norm_label": "timer"
+    },
+    {
+      "label": "TaskCompletionSource",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "taskcompletionsource",
+      "community": 1,
+      "norm_label": "taskcompletionsource"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_string",
+      "community": 1,
+      "norm_label": "string"
+    },
+    {
+      "label": "Task",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_task",
+      "community": 1,
+      "norm_label": "task"
+    },
+    {
+      "label": ".LaunchAsync()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L78",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_launchasync",
+      "community": 1,
+      "norm_label": ".launchasync()"
+    },
+    {
+      "label": ".Browse()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L89",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_browse",
+      "community": 1,
+      "norm_label": ".browse()"
+    },
+    {
+      "label": ".OnFormClosed()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L97",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_onformclosed",
+      "community": 1,
+      "norm_label": ".onformclosed()"
+    },
+    {
+      "label": "FormClosedEventArgs",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountwindow_cs_formclosedeventargs",
+      "community": 1,
+      "norm_label": "formclosedeventargs"
+    },
+    {
+      "label": ".Dispose()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L106",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_dispose",
+      "community": 1,
+      "norm_label": ".dispose()"
+    },
+    {
+      "label": ".Navigate()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L118",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_navigate",
+      "community": 1,
+      "norm_label": ".navigate()"
+    },
+    {
+      "label": ".SetBanner()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L130",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "community": 1,
+      "norm_label": ".setbanner()"
+    },
+    {
+      "label": ".InitAsync()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L132",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_initasync",
+      "community": 1,
+      "norm_label": ".initasync()"
+    },
+    {
+      "label": ".OnNavigationCompleted()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L188",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_onnavigationcompleted",
+      "community": 1,
+      "norm_label": ".onnavigationcompleted()"
+    },
+    {
+      "label": ".OnLaunchingExternalUriScheme()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L212",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_onlaunchingexternalurischeme",
+      "community": 1,
+      "norm_label": ".onlaunchingexternalurischeme()"
+    },
+    {
+      "label": "CoreWebView2LaunchingExternalUriSchemeEventArgs",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "corewebview2launchingexternalurischemeeventargs",
+      "community": 1,
+      "norm_label": "corewebview2launchingexternalurischemeeventargs"
+    },
+    {
+      "label": ".CheckSignInAsync()",
+      "file_type": "code",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L247",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s130"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountwindow_multiroblox_accountwindow_checksigninasync",
+      "community": 1,
+      "norm_label": ".checksigninasync()"
+    },
+    {
+      "label": "AccountsSection.cs",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_accountssection",
+      "community": 4,
+      "norm_label": "accountssection.cs"
+    },
+    {
+      "label": "AccountsSection",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L7",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection",
+      "community": 0,
+      "norm_label": "accountssection"
+    },
+    {
+      "label": "TableLayoutPanel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "tablelayoutpanel",
+      "community": 0,
+      "norm_label": "tablelayoutpanel"
+    },
+    {
+      "label": "TimeSpan",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "timespan",
+      "community": 0,
+      "norm_label": "timespan"
+    },
+    {
+      "label": "Func",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "func",
+      "community": 0,
+      "norm_label": "func"
+    },
+    {
+      "label": "Dictionary",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "dictionary",
+      "community": 0,
+      "norm_label": "dictionary"
+    },
+    {
+      "label": "ListBox",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "listbox",
+      "community": 0,
+      "norm_label": "listbox"
+    },
+    {
+      "label": "TextBox",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "textbox",
+      "community": 0,
+      "norm_label": "textbox"
+    },
+    {
+      "label": "Button",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountssection_cs_button",
+      "community": 0,
+      "norm_label": "button"
+    },
+    {
+      "label": "Label",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountssection_cs_label",
+      "community": 0,
+      "norm_label": "label"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountssection_cs_bool",
+      "community": 0,
+      "norm_label": "bool"
+    },
+    {
+      "label": ".MakeButton()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L132",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_makebutton",
+      "community": 0,
+      "norm_label": ".makebutton()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountssection_cs_list",
+      "community": 0,
+      "norm_label": "list"
+    },
+    {
+      "label": ".ReloadList()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L142",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "community": 0,
+      "norm_label": ".reloadlist()"
+    },
+    {
+      "label": ".UpdateButtons()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L165",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_updatebuttons",
+      "community": 0,
+      "norm_label": ".updatebuttons()"
+    },
+    {
+      "label": ".TrySave()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L177",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_trysave",
+      "community": 0,
+      "norm_label": ".trysave()"
+    },
+    {
+      "label": ".OpenWindow()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L191",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_openwindow",
+      "community": 0,
+      "norm_label": ".openwindow()"
+    },
+    {
+      "label": ".AddAccountAsync()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L211",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "community": 0,
+      "norm_label": ".addaccountasync()"
+    },
+    {
+      "label": "Task",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_accountssection_cs_task",
+      "community": 0,
+      "norm_label": "task"
+    },
+    {
+      "label": ".RemoveSelected()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L241",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_removeselected",
+      "community": 0,
+      "norm_label": ".removeselected()"
+    },
+    {
+      "label": ".BrowseSelected()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L276",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_browseselected",
+      "community": 0,
+      "norm_label": ".browseselected()"
+    },
+    {
+      "label": ".LaunchSelectedAsync()",
+      "file_type": "code",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L286",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "community": 0,
+      "norm_label": ".launchselectedasync()"
+    },
+    {
+      "label": "MainForm.cs",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_mainform",
+      "community": 4,
+      "norm_label": "mainform.cs"
+    },
+    {
+      "label": "MainForm",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L7",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform",
+      "community": 2,
+      "norm_label": "mainform"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "color",
+      "community": 2,
+      "norm_label": "color"
+    },
+    {
+      "label": "RobloxSingletonLock",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "robloxsingletonlock",
+      "community": 2,
+      "norm_label": "robloxsingletonlock"
+    },
+    {
+      "label": "Timer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_timer",
+      "community": 2,
+      "norm_label": "timer"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "icon",
+      "community": 2,
+      "norm_label": "icon"
+    },
+    {
+      "label": "CheckBox",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "checkbox",
+      "community": 2,
+      "norm_label": "checkbox"
+    },
+    {
+      "label": "Label",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_label",
+      "community": 2,
+      "norm_label": "label"
+    },
+    {
+      "label": "Button",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_button",
+      "community": 2,
+      "norm_label": "button"
+    },
+    {
+      "label": "NotifyIcon",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "notifyicon",
+      "community": 2,
+      "norm_label": "notifyicon"
+    },
+    {
+      "label": "ToolStripMenuItem",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "toolstripmenuitem",
+      "community": 2,
+      "norm_label": "toolstripmenuitem"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_bool",
+      "community": 2,
+      "norm_label": "bool"
+    },
+    {
+      "label": "Result",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "result",
+      "community": 2,
+      "norm_label": "result"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "int",
+      "community": 2,
+      "norm_label": "int"
+    },
+    {
+      "label": ".ShowFromTray()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L218",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_showfromtray",
+      "community": 2,
+      "norm_label": ".showfromtray()"
+    },
+    {
+      "label": ".SetVisibleCore()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L230",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_setvisiblecore",
+      "community": 2,
+      "norm_label": ".setvisiblecore()"
+    },
+    {
+      "label": ".OnFormClosing()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L236",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_onformclosing",
+      "community": 7,
+      "norm_label": ".onformclosing()"
+    },
+    {
+      "label": "FormClosingEventArgs",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "formclosingeventargs",
+      "community": 7,
+      "norm_label": "formclosingeventargs"
+    },
+    {
+      "label": ".OnFormClosed()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L258",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_onformclosed",
+      "community": 8,
+      "norm_label": ".onformclosed()"
+    },
+    {
+      "label": "FormClosedEventArgs",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_formclosedeventargs",
+      "community": 8,
+      "norm_label": "formclosedeventargs"
+    },
+    {
+      "label": ".Dispose()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L266",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_dispose",
+      "community": 2,
+      "norm_label": ".dispose()"
+    },
+    {
+      "label": ".SetWanted()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L281",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_setwanted",
+      "community": 5,
+      "norm_label": ".setwanted()"
+    },
+    {
+      "label": ".RefreshState()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L293",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_refreshstate",
+      "community": 5,
+      "norm_label": ".refreshstate()"
+    },
+    {
+      "label": ".UpdateUi()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L307",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_updateui",
+      "community": 5,
+      "norm_label": ".updateui()"
+    },
+    {
+      "label": ".CloseAllRobloxAsync()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L379",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_closeallrobloxasync",
+      "community": 5,
+      "norm_label": ".closeallrobloxasync()"
+    },
+    {
+      "label": "Task",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_mainform_cs_task",
+      "community": 5,
+      "norm_label": "task"
+    },
+    {
+      "label": ".ExitApp()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L420",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_exitapp",
+      "community": 2,
+      "norm_label": ".exitapp()"
+    },
+    {
+      "label": ".SafeIsStartupEnabled()",
+      "file_type": "code",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L429",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_mainform_multiroblox_mainform_safeisstartupenabled",
+      "community": 2,
+      "norm_label": ".safeisstartupenabled()"
+    },
+    {
+      "label": "RobloxWeb.cs",
+      "file_type": "code",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_robloxweb",
+      "community": 4,
+      "norm_label": "robloxweb.cs"
+    },
+    {
+      "label": "RobloxUser",
+      "file_type": "code",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L5",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_robloxweb_multiroblox_robloxuser",
+      "community": 4,
+      "norm_label": "robloxuser"
+    },
+    {
+      "label": "RobloxWeb",
+      "file_type": "code",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L7",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_robloxweb_multiroblox_robloxweb",
+      "community": 4,
+      "norm_label": "robloxweb"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_robloxweb_cs_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": "HttpClient",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "httpclient",
+      "community": 4,
+      "norm_label": "httpclient"
+    },
+    {
+      "label": ".GetSignedInUserAsync()",
+      "file_type": "code",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L18",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_robloxweb_multiroblox_robloxweb_getsignedinuserasync",
+      "community": 4,
+      "norm_label": ".getsignedinuserasync()"
+    },
+    {
+      "label": "Task",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_robloxweb_cs_task",
+      "community": 4,
+      "norm_label": "task"
+    },
+    {
+      "label": ".TryMakeLaunchUrl()",
+      "file_type": "code",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L49",
+      "metadata": {
+        "namespace": "MultiRoblox",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "_origin": "ast",
+      "id": "src_robloxweb_multiroblox_robloxweb_trymakelaunchurl",
+      "community": 4,
+      "norm_label": ".trymakelaunchurl()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiRoblox.csproj",
+      "weight": 1.0,
+      "source": "multiroblox",
+      "target": "framework_net8_0_windows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiRoblox.csproj",
+      "weight": 1.0,
+      "source": "multiroblox",
+      "target": "nuget_microsoft_web_webview2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MultiRoblox.csproj",
+      "weight": 1.0,
+      "source": "multiroblox",
+      "target": "sdk_microsoft_net_sdk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_accountstore",
+      "target": "csharp_namespace:c15e3f48b2a6bf5e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_accountstore",
+      "target": "src_accountstore_multiroblox_accountstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_accountstore",
+      "target": "src_accountstore_multiroblox_appdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_accountstore",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_accountssection",
+      "target": "csharp_namespace:c15e3f48b2a6bf5e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_accountwindow",
+      "target": "csharp_namespace:c15e3f48b2a6bf5e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_mainform",
+      "target": "csharp_namespace:c15e3f48b2a6bf5e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_robloxweb",
+      "target": "csharp_namespace:c15e3f48b2a6bf5e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "SavedAccount"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L191",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "SavedAccount"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_openwindow",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L142",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "SavedAccount"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "SavedAccount"
+      },
+      "source": "src_accountstore_multiroblox_appdata",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "DateTime"
+      },
+      "source": "src_accountstore_multiroblox_savedaccount",
+      "target": "datetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_savedaccount",
+      "target": "src_accountstore_multiroblox_savedaccount_tostring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "SavedAccount"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountstore_multiroblox_savedaccount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "AppData"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountstore_multiroblox_appdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "AppData"
+      },
+      "source": "src_accountstore_multiroblox_accountstore_deleteorphanprofiles",
+      "target": "src_accountstore_multiroblox_appdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "AppData"
+      },
+      "source": "src_accountstore_multiroblox_accountstore_load",
+      "target": "src_accountstore_multiroblox_appdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "AppData"
+      },
+      "source": "src_accountstore_multiroblox_accountstore_save",
+      "target": "src_accountstore_multiroblox_appdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "source": "src_accountstore_multiroblox_appdata",
+      "target": "src_accountstore_cs_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "JsonSerializerOptions"
+      },
+      "source": "src_accountstore_multiroblox_accountstore",
+      "target": "jsonserializeroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_accountstore",
+      "target": "src_accountstore_multiroblox_accountstore_deleteorphanprofiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_accountstore",
+      "target": "src_accountstore_multiroblox_accountstore_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_accountstore",
+      "target": "src_accountstore_multiroblox_accountstore_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_accountstore",
+      "target": "src_accountstore_multiroblox_accountstore_trydeleteprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Data"
+      },
+      "source": "src_accountstore_multiroblox_accountstore_load",
+      "target": "data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "ReadCleanly"
+      },
+      "source": "src_accountstore_multiroblox_accountstore_load",
+      "target": "readcleanly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_trysave",
+      "target": "src_accountstore_multiroblox_accountstore_save"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "target": "src_accountstore_multiroblox_accountstore_trydeleteprofile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L269",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_removeselected",
+      "target": "src_accountstore_multiroblox_accountstore_trydeleteprofile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountStore.cs",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "src_accountstore_multiroblox_accountstore_deleteorphanprofiles",
+      "target": "src_accountstore_multiroblox_accountstore_trydeleteprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L191",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "AccountWindow"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_openwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "metadata": {
+        "ref_token": "Form"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "bool"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_cs_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Label"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_cs_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "string"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Timer",
+        "qualified": true,
+        "ref_qualifier": "System.Windows.Forms"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_cs_timer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_browse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_checksigninasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_dispose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_initasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_launchasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_onformclosed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_onlaunchingexternalurischeme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_onnavigationcompleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "RobloxUser"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "src_robloxweb_multiroblox_robloxuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "TaskCompletionSource"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "taskcompletionsource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "WebView2"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow",
+      "target": "webview2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "metadata": {
+        "ref_token": "Form"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L247",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow_checksigninasync",
+      "target": "src_accountwindow_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow_initasync",
+      "target": "src_accountwindow_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L78",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow_launchasync",
+      "target": "src_accountwindow_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_launchasync",
+      "target": "src_accountwindow_multiroblox_accountwindow_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_launchasync",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_browse",
+      "target": "src_accountwindow_multiroblox_accountwindow_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_browse",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "FormClosedEventArgs"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow_onformclosed",
+      "target": "src_accountwindow_cs_formclosedeventargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_onlaunchingexternalurischeme",
+      "target": "src_accountwindow_multiroblox_accountwindow_dispose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_onnavigationcompleted",
+      "target": "src_accountwindow_multiroblox_accountwindow_navigate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_initasync",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_onlaunchingexternalurischeme",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_onnavigationcompleted",
+      "target": "src_accountwindow_multiroblox_accountwindow_setbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_initasync",
+      "target": "src_accountwindow_multiroblox_accountwindow_onnavigationcompleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L212",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "CoreWebView2LaunchingExternalUriSchemeEventArgs"
+      },
+      "source": "src_accountwindow_multiroblox_accountwindow_onlaunchingexternalurischeme",
+      "target": "corewebview2launchingexternalurischemeeventargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/AccountWindow.cs",
+      "source_location": "L264",
+      "weight": 1.0,
+      "source": "src_accountwindow_multiroblox_accountwindow_checksigninasync",
+      "target": "src_robloxweb_multiroblox_robloxweb_getsignedinuserasync"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Dictionary"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "dictionary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Func"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "func",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "ListBox"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "listbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "bool"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_cs_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Button"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_cs_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Label"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_cs_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_cs_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_browseselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_makebutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_openwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_removeselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_trysave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "src_accountssection_multiroblox_accountssection_updatebuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "metadata": {
+        "ref_token": "TableLayoutPanel"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "tablelayoutpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "TextBox"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "textbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "TimeSpan"
+      },
+      "source": "src_accountssection_multiroblox_accountssection",
+      "target": "timespan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Button"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_makebutton",
+      "target": "src_accountssection_cs_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "target": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "target": "src_accountssection_multiroblox_accountssection_updatebuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L273",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_removeselected",
+      "target": "src_accountssection_multiroblox_accountssection_reloadlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "target": "src_accountssection_multiroblox_accountssection_updatebuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "target": "src_accountssection_multiroblox_accountssection_trysave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L317",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "target": "src_accountssection_multiroblox_accountssection_trysave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L272",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_removeselected",
+      "target": "src_accountssection_multiroblox_accountssection_trysave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_browseselected",
+      "target": "src_accountssection_multiroblox_accountssection_openwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L331",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "target": "src_accountssection_multiroblox_accountssection_openwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L211",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_addaccountasync",
+      "target": "src_accountssection_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L286",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "target": "src_accountssection_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/AccountsSection.cs",
+      "source_location": "L294",
+      "weight": 1.0,
+      "source": "src_accountssection_multiroblox_accountssection_launchselectedasync",
+      "target": "src_robloxweb_multiroblox_robloxweb_trymakelaunchurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_mainform",
+      "target": "src_mainform_multiroblox_mainform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "CheckBox"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "checkbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Color"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Icon"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "int"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "NotifyIcon"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "notifyicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Result",
+        "qualified": true,
+        "ref_qualifier": "RobloxSingletonLock"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "result",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "RobloxSingletonLock"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "robloxsingletonlock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "bool"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_cs_bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Button"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_cs_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Label"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_cs_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Timer",
+        "qualified": true,
+        "ref_qualifier": "System.Windows.Forms"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_cs_timer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L379",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_closeallrobloxasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_dispose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L420",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_exitapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_onformclosed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_onformclosing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_refreshstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L429",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_safeisstartupenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_setvisiblecore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L281",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_setwanted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_showfromtray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "src_mainform_multiroblox_mainform_updateui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "ToolStripMenuItem"
+      },
+      "source": "src_mainform_multiroblox_mainform",
+      "target": "toolstripmenuitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L236",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "FormClosingEventArgs"
+      },
+      "source": "src_mainform_multiroblox_mainform_onformclosing",
+      "target": "formclosingeventargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L258",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "FormClosedEventArgs"
+      },
+      "source": "src_mainform_multiroblox_mainform_onformclosed",
+      "target": "src_mainform_cs_formclosedeventargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform_setwanted",
+      "target": "src_mainform_multiroblox_mainform_refreshstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L416",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform_closeallrobloxasync",
+      "target": "src_mainform_multiroblox_mainform_refreshstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L304",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform_refreshstate",
+      "target": "src_mainform_multiroblox_mainform_updateui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "src_mainform_multiroblox_mainform_closeallrobloxasync",
+      "target": "src_mainform_multiroblox_mainform_updateui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/MainForm.cs",
+      "source_location": "L379",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_mainform_multiroblox_mainform_closeallrobloxasync",
+      "target": "src_mainform_cs_task",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_robloxweb",
+      "target": "src_robloxweb_multiroblox_robloxuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_robloxweb",
+      "target": "src_robloxweb_multiroblox_robloxweb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "RobloxUser"
+      },
+      "source": "src_robloxweb_multiroblox_robloxweb_getsignedinuserasync",
+      "target": "src_robloxweb_multiroblox_robloxuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "HttpClient"
+      },
+      "source": "src_robloxweb_multiroblox_robloxweb",
+      "target": "httpclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "string"
+      },
+      "source": "src_robloxweb_multiroblox_robloxweb",
+      "target": "src_robloxweb_cs_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_robloxweb_multiroblox_robloxweb",
+      "target": "src_robloxweb_multiroblox_robloxweb_getsignedinuserasync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_robloxweb_multiroblox_robloxweb",
+      "target": "src_robloxweb_multiroblox_robloxweb_trymakelaunchurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/RobloxWeb.cs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "source": "src_robloxweb_multiroblox_robloxweb_getsignedinuserasync",
+      "target": "src_robloxweb_cs_task",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "991e4467b87ff3e7d8157a7baebdde292dcc4c02"
+}

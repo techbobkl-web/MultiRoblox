@@ -21,6 +21,9 @@
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
     <DebugType>embedded</DebugType>
+    <PublishReferencesDocumentationFiles>false</PublishReferencesDocumentationFiles>
+    <PublishDocumentationFiles>false</PublishDocumentationFiles>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
   </PropertyGroup>
 
   <ItemGroup>
